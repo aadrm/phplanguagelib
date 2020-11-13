@@ -4,12 +4,12 @@ import csv
 sect = ''
 
 
-# this variables are used for refering to the language headers of the csv file, they have to be the same
+# this variables are used for refering to the language headers of the csv file, they have to be the same.
 lang1 = 'en'
 lang2 = 'gr'
 lang3 = 'ru'
 lang4 = 'cn'
-spacenum = 32
+spacenum = 32 # for a better visual representation.
 
 
 with open('lib.csv', 'r') as rf:
